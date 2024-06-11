@@ -19,7 +19,9 @@ git pull: #Busca as últimas alterações do repositório remoto e as mescla com
 git fetch: # Baixa as últimas alterações do repositório remoto, mas não as mescla com o seu repositório local.
 git rebase: # Reapplica commits em cima de uma branch base, reescrevendo o histórico do repositório.
 git tag: # Cria, lista, exclui e verifica tags em commits específicos.
+
 ** Configuração:
+
 git config: # Configura variáveis ​​globais e locais para personalizar o comportamento do Git.
 
 ** Utilitários:
