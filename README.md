@@ -21,21 +21,32 @@ git rebase: # Reapplica commits em cima de uma branch base, reescrevendo o hist�
 git tag: # Cria, lista, exclui e verifica tags em commits específicos.
 ** Configuração:
 git config: # Configura variáveis ​​globais e locais para personalizar o comportamento do Git.
+
 ** Utilitários:
+
 git help: # Mostra ajuda para comandos Git específicos ou para o Git em geral.
 git diff: # Mostra as diferenças entre arquivos modificados ou entre commits.
+
 ** Diferenças entre git diff e git diff --staged:
+
 git diff: # Mostra as diferenças entre o seu diretório de trabalho e o índice (staging area) ou entre o índice e o último commit.
 git diff --staged: # Foca apenas nas diferenças entre os arquivos preparados para commit no índice e a versão mais recente no índice.
+
 ** Cenários de uso para git diff --staged:
+
 ** Revisar alterações antes de commitar: #É útil para revisar as alterações que você já adicionou à área de preparo e garantir que tudo esteja correto antes de finalizar o commit.
-** Depurar problemas de merge: #Se você estiver tendo problemas ao mesclar branches, o git diff --staged pode te ajudar a identificar quais arquivos estão causando o conflito.
-** Verificar o status de arquivos específicos: # Você pode usar o comando junto com o nome de um arquivo para ver as alterações específicas que foram preparadas para commit naquele arquivo.
+
+** Depurar problemas de merge:
+ #Se você estiver tendo problemas ao mesclar branches, o git diff --staged pode te ajudar a identificar quais arquivos estão causando o conflito.
+
+** Verificar o status de arquivos específicos:
+ # Você pode usar o comando junto com o nome de um arquivo para ver as alterações específicas que foram preparadas para commit naquele arquivo.
 
 git show: # Exibe informações detalhadas sobre um commit específico.
 git clean: # Remove arquivos não rastreados do diretório de trabalho.
 git ls-remote: # Lista as branches e tags remotas em um repositório remoto.
 git archive: # Cria um arquivo compactado de um commit ou branch específica.
+
 ** Ferramentas Avançadas:
 
 git bisect: # Encontra o commit que introduziu um bug específico.
